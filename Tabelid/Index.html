@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid</title>
+    <link rel = "stylesheet" type="text/css" href="TabelStyle.css">
+</head>
+<body>
+<h1>Lihtne tabel 1</h1>
+
+<!--1 table--------------------------------------------------------------------------------------->
+    <Table>
+        <caption>1.tabel</caption>
+        <!--riida1-->
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <!--riida2-->
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+    </Table>
+
+<!--2 table--------------------------------------------------------------------------------------->
+<Table id="teine">
+    <caption>2.tabel</caption>
+    <!--riida1-->
+    <tr>
+        <td class="muu">A</td>
+        <td rowspan="2" class="muu">B</td>
+    </tr>
+    <!--riida2-->
+    <tr>
+        <td class="muu">C</td>
+    </tr>
+</Table>
+
+<!--3 table--------------------------------------------------------------------------------------->
+<Table>
+    <caption>3.tabel</caption>
+    <!--riida1-->
+    <tr>
+        <td colspan="2">A</td>
+    </tr>
+    <!--riida2-->
+    <tr>
+        <td>C</td>
+        <td>D</td>
+    </tr>
+</Table>
+
+<!--4 table--------------------------------------------------------------------------------------->
+<Table>
+    <caption>4.tabel</caption>
+    <!--riida1-->
+    <tr>
+        <td class="tuu" colspan="4">A</td>
+    </tr>
+    <!--riida2-->
+    <tr>
+        <td class="tuu" colspan="2" rowspan="2" >b</td>
+        <td class="tuu" colspan="2">b</td>
+    </tr>
+    <!--riida2-->
+    <tr>
+        <td class="tuu" rowspan="2" >b</td>
+        <td class="tuu">b</td>
+    </tr>
+    <tr>
+        <td class="tuu">b</td>
+        <td class="tuu">b</td>
+        <td class="tuu" rowspan="2" >b</td>
+
+    </tr>
+</Table>
+<!--5 table--------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+</body>
+</html>

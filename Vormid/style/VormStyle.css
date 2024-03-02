@@ -1,0 +1,161 @@
+/*range*/
+input[type=range]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=range]:hover{
+    border: 2px solid gray;
+}
+input[type=range]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*fail*/
+input[type=fail]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=fail]:hover{
+    border: 2px solid gray;
+}
+input[type=fail]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*image*/
+input[type=image]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=image]:hover{
+    border: 2px solid gray;
+}
+input[type=image]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*number*/
+input[type=number]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=number]:hover{
+    border: 2px solid gray;
+}
+input[type=number]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*email*/
+input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=email]:hover{
+    border: 2px solid gray;
+}
+input[type=email]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*date*/
+input[type=date]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=date]:hover{
+    border: 2px solid gray;
+}
+input[type=date]:focus {
+    border: 2px solid darkblue;;
+}
+
+/*text*/
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url(pilt.jpg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+input[type=text]:hover{
+    border: 2px solid gray;
+}
+input[type=text]:focus{
+    border: 2px solid darkcyan;
+
+}
+
+form{
+    width: 60%;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+    border-radius: 4px;
+    background-color: gainsboro;
+}
+
+td{
+    border-bottom: 2px solid red;
+    border-left: 1px solid red;
+    border-radius: 4px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormid</title>
+    <link rel="stylesheet" type="text/css" href="VormStyle.css">
+    <script src="vormistLugemine.js"> </script>
+</head>
+<body>
+<h1>Kusimustik</h1>
+<form name="kysimustik">
+    <label for="varv">Vali vsastuste varv</label>
+    <input type="color" id="varv" onchange="varvValik()" >
+    <table>
+        <!--Tekstkast-->
+        <tr>
+            <td>
+                <label for="nimi">Nimi</label>
+            </td>
+            <td>
+                <input type="text" id="nimi" name="nimi" placeholder="Sisesta oma nimi" oninput="tekstKastiLugemine()">
+            </td>
+            <td>
+                <div id="vastus"></div>
+            </td>
+        </tr>
+        <!--Radionupp-->
+        <tr>
+            <td>
+                <br>
+                <strong>
+                    Vali oma ruhm:
+                </strong>
+            </td>
+            <td>
+                <br>
+                <input type="radio" id="targv23" name="ruhm" value="TARgv23" onchange="radioLugemine()">
+                <label for="targv23">TARgv23</label>
+                <br>
+                <input type="radio" id="logitgv23" name="ruhm" value="LOGITgv23" onchange="radioLugemine()">
+                <label for="logitgv23">LOGITgv23</label>
+            </td>
+            <td>
+                <div id="vastus2"></div>
+                <img src="" id="pilt">
+            </td>
+        </tr>
+    <!--CheckBox-->
+        <tr>
+            <td>
+                <br>
+                <strong>
+                    Vali oma limmikud
+                </strong>
+            </td>
+            <td>
+                <br>
+                <input type="checkbox" id="andmebaasid" name="ruhm" value="andmebaasid" onchange="checkboxValik()">
+                <label for="andmebaasid">Andmebaasid</label>
+                <br>
+                <input type="checkbox" id="matemaatika" name="ruhm" value="Matemaatika" onchange="checkboxValik()">
+                <label for="matemaatika">Matemaatika</label>
+                <br>
+                <input type="checkbox" id="programeerimine" name="ruhm" value="programeerimine" onchange="checkboxValik()">
+                <label for="programeerimine">Programeerimine</label>
+                <br>
+            </td>
+            <td>
+                <div id="vastus3"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="kodu">Kust sa parit oled?</label>
+                <br>
+                <label for="km">Kaugus</label>
+            </td>
+            <td>
+                <select id="kodu" onchange="selectOptionValik()">
+                    <option value="tyhi">vali...</option>
+                    <option value="Tallinn">Tallinn</option>
+                    <option value="Tartu">Tartu</option>
+                    <option value="Narva">Narva</option>
+                </select>
+                <br>
+                <input type="range" id="km" min="0" max="200" onchange="selectOptionValik()">
+            </td>
+            <td>
+                <div id ="vastus4"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cardNumber">Input your bank card number</label>
+            </td>
+            <td>
+                <input type="number" id="cardNumber">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cardDate">Input your bank card date of receving</label>
+            </td>
+            <td>
+                <input type="date" id="cardDate" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Input your email</label>
+            </td>
+            <td>
+                <input type="email" id="email" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Input name</label>
+            </td>
+            <td>
+                <input type="text" id="name" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="CVV">Input CVV</label>
+            </td>
+            <td>
+                <input type="number" id="CVV" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Week">Input day of week</label>
+            </td>
+            <td>
+                <select id="Week">
+                    <option value="tyhi">vali...</option>
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fail">Input your fail</label>
+            </td>
+            <td>
+                <input type="file" id="fail" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="OK">
+            </td>
+            <td>
+                <input type="reset" value="Puhasta" onclick="puhasta()">
+            </td>
+        </tr>
+    </table>
+    <title>TEXT</title>
+    <div></div>
+</form>
+</body>
+</html>

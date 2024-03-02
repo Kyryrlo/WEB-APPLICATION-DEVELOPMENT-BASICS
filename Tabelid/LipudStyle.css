@@ -1,0 +1,138 @@
+#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+}
+
+#eesti tr:nth-child(1){
+    background-color: blue;
+}
+#eesti tr:nth-child(2) {
+    background-color: black;
+}
+#eesti tr:nth-child(3) {
+    background-color: white;
+}
+
+
+#Rootsi{
+    width:330px;
+    height:210px;
+    border: 1pt solid grey;
+    border-spacing: 0px;}
+/*1 stroka 1 jacheika ja 3 stroka 1 jacheika*/
+
+#Rootsi tr:nth-child(1) td:nth-child(1),
+#Rootsi tr:nth-child(3) td:nth-child(1){
+    background-color:blue;
+    width: 20%
+}
+#Rootsi tr:nth-child(2){
+    background-color:gold;
+    height: 20%
+}
+#Rootsi tr:nth-child(1) td:nth-child(3),
+#Rootsi tr:nth-child(3) td:nth-child(3){
+    background-color:blue;
+}
+#Rootsi tr:nth-child(1) td:nth-child(2),
+#Rootsi tr:nth-child(3) td:nth-child(2){
+    background-color:gold;
+    width: 13%
+}
+
+
+#Mali{
+    width:330px;
+    height:210px;
+    border: 1pt solid grey;
+    border-spacing: 0px;}
+
+#Mali tr:nth-child(1){
+    background-color: green;
+}
+#Mali tr:nth-child(2){
+    background-color: yellow;
+}
+#Mali tr:nth-child(3){
+    background-color: red;
+}
+
+
+#Norway {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-collapse: collapse;
+}
+
+#Norway tr:nth-child(1) td:nth-child(2),
+#Norway tr:nth-child(1) td:nth-child(4),
+#Norway tr:nth-child(2),
+#Norway tr:nth-child(4),
+#Norway tr:nth-child(5) td:nth-child(2),
+#Norway tr:nth-child(5) td:nth-child(3) {
+    background-color: white;
+}
+#Norway tr:nth-child(1) td:nth-child(1),
+#Norway tr:nth-child(1) td:nth-child(5),
+#Norway tr:nth-child(5) td:nth-child(1),
+#Norway tr:nth-child(5) td:nth-child(2){
+    background-color: red;
+}
+#Norway tr:nth-child(1) td:nth-child(3),
+#Norway tr:nth-child(3){
+    background-color: darkblue;
+}
+#Norway tr:nth-child(1) td:nth-child(2),
+#Norway tr:nth-child(1) td:nth-child(4),
+#Norway tr:nth-child(5) td:nth-child(2),
+#Norway tr:nth-child(5) td:nth-child(4) {
+    width: 3%;
+}
+#Norway tr:nth-child(2) td:nth-child(1),
+#Norway tr:nth-child(2) td:nth-child(2){
+    height: 8px;
+}
+#Norway tr:nth-child(4) td:nth-child(1),
+#Norway tr:nth-child(4) td:nth-child(2){
+    height: 8px;
+}
+
+#Norway tr:nth-child(1) td:nth-child(3){
+    width: 10%;
+}
+#Norway tr:nth-child(3){
+    height: 35px;
+}
+#Norway tr:nth-child(1) td:nth-child(5),
+#Norway tr:nth-child(5) td:nth-child(5){
+    width: 60%;
+}
+#Norway tr:nth-child(1) td:nth-child(1),
+#Norway tr:nth-child(5) td:nth-child(1){
+    width: 20%;
+}
+
+
+
+#Tailand {
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-collapse: collapse;
+}
+#Tailand tr:nth-child(1),
+#Tailand tr:nth-child(5){
+    background-color: darkred;
+    width: 57px;
+}
+#Tailand tr:nth-child(2),
+#Tailand tr:nth-child(4){
+    background-color: white;
+    width: 57px;
+}
+#Tailand tr:nth-child(3){
+    background-color: darkblue;
+    height: 65px;
+}
